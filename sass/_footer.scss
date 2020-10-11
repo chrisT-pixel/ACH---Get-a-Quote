@@ -1,0 +1,149 @@
+footer{
+
+  .footer-top{
+
+      background: $green;
+      padding-top: 15px;
+      padding-bottom: 15px;
+
+      .sign-up-button{
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: white;
+        text-transform: uppercase;
+        font-size: 18px;
+        width: 350px;
+
+        &:hover{
+
+          background: $font;
+          color: $green;
+
+        }
+
+        @media(max-width: $md-break){
+
+          width: 100%;
+
+        }
+
+      }
+
+      #news{
+
+        font-size: 18px;
+        float: right;
+        margin-top: 20px;
+
+        @media(max-width: $md-break){
+
+          float: none;
+          text-align: center;
+
+        }
+
+      }
+
+    }
+
+    .footer-bottom{
+
+      background: $brown;
+      padding-top: 50px;
+      padding-bottom: 25px;
+
+      .col-md-3{
+
+        @media(max-width: $md-break){
+
+          text-align: center;
+
+        }
+
+      }
+
+      ul{
+
+        padding: 0px;
+
+        li{
+
+          list-style-type: none;
+          border-bottom: dotted thin $font;
+          padding-bottom: 4px;
+          padding-top: 4px;
+
+        }
+
+      }
+
+      h3{
+
+        font-size: 18px;
+        margin-bottom: 15px;
+
+        @media(max-width: $md-break){
+
+          margin-top: 20px;
+          margin-bottom: 20px;
+
+        }
+
+      }
+
+      img{
+
+        float: right;
+
+        @media(max-width: $md-break){
+
+          float: none;
+          margin-top: 25px;
+
+        }
+
+      }
+
+      .fa-print{
+
+        font-size: 30px;
+        cursor: pointer;
+
+        &:hover{
+
+          color: $green;
+
+        }
+
+      }
+
+      .circle-icon {
+
+        background: $brown;
+        border: thin solid $font;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        vertical-align: middle;
+        font-size: 20px;
+        cursor: pointer;
+
+        &:hover{
+
+          border: thin solid $green;
+          color: $green;
+
+        }
+
+
+      }
+
+    }
+
+
+
+
+}

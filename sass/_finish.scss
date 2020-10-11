@@ -1,0 +1,323 @@
+.plan-title-wrapper{
+
+  height: 150px;
+  background: $light-green;
+  @include flexBox();
+  align-items: center;
+  justify-content: center;
+  color: $green;
+
+
+
+}
+
+.selections-container{
+
+  margin-bottom: 40px;
+
+  .service-details-container{
+
+    background: $grey;
+
+    .service-title{
+
+      a{
+
+        color: $green;
+
+        &:hover{
+
+          color: $orange;
+
+        }
+
+      }
+
+    }
+
+    .plan-title{
+
+      color: $green;
+      border-bottom: 3px solid $green;
+      padding-bottom: 15px;
+      padding-top: 40px;
+      font-size: 36px;
+      margin-left: 10px;
+      margin-right: 10px;
+
+    }
+
+    .service-cat-title{
+
+      color: $green;
+      font-size: 30px;
+      padding-top: 60px;
+      margin-left: -15px;
+
+    }
+
+    .service-cat-sub-heading{
+
+      text-transform: uppercase;
+      color: $green;
+      padding-bottom: 10px;
+      padding-top: 20px;
+      font-size: 22px;
+      margin-left: -15px;
+
+    }
+
+    .service-row{
+
+      border-bottom: 3px solid $light-brown;
+      margin-left: 5px;
+      margin-right: 5px;
+
+      h4{
+
+        padding-top: 15px;
+        padding-bottom: 5px;
+        margin-left: -15px;
+        text-transform: capitalize;
+
+      }
+
+      .hours-details{
+
+        font-weight: bold;
+        padding-top: 20px;
+        margin-left: -15px;
+
+      }
+
+      p{
+
+          margin-left: -15px;
+
+      }
+
+
+    }
+
+  }
+
+}
+
+.pricing-wrapper{
+
+  background: $grey;
+  padding: 20px;
+
+  @media(max-width: $sm-break){
+
+    margin-top: 25px;
+
+  }
+
+  h3{
+
+    color: $green;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+
+  .service-price-container{
+
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+
+    ul{
+
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 0px;
+
+      li{
+
+        list-style: none;
+
+        &:last-child{
+
+          color: $green;
+          font-weight: bold;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+#finish-interested{
+
+  text-align: center;
+  color: $green;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 36px;
+
+}
+
+.next-step-container{
+
+  border-top: 3px solid $light-brown;
+  max-width: 950px;
+
+  h2{
+
+    text-align: center;
+    color: $green;
+    //margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 36px;
+
+  }
+
+  p{
+
+    text-align: center;
+
+  }
+
+  form{
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    input{
+
+      height: 50px;
+      border: 2px solid $light-brown;
+
+    }
+
+    textarea{
+
+      border: 2px solid $light-brown;
+
+    }
+
+    label{
+
+      margin-top: 20px;
+      padding-left: 5px;
+
+    }
+
+    .btn{
+
+      max-width: 300px;
+
+      @media(max-width: $md-break){
+
+        max-width: 100%;
+
+      }
+
+    }
+
+  }
+
+}
+
+.modal-header{
+
+  background: $green;
+  color: white;
+  border-top-left-radius: 10px!important;
+  border-top-right-radius: 10px!important;
+
+  button{
+
+    color: white!important;
+    text-shadow: none!important;
+    opacity: 1!important;
+
+  }
+
+  h4{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+}
+
+.modal-content{
+
+  border-top-left-radius: 10px!important;
+  border-top-right-radius: 10px!important;
+
+}
+
+.modal-footer{
+
+  background: white;
+  border-bottom-left-radius: 10px!important;
+  border-bottom-right-radius: 10px!important;
+
+  .row{
+
+    width: 100%;
+    margin-right: 0px;
+
+    @media(max-width: $sm-break){
+
+      flex-wrap: nowrap;
+      width: 100%;
+
+    }
+
+  }
+
+  .btn{
+
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+      @media(max-width: $sm-break){
+
+        width: 100%;
+
+      }
+
+  }
+
+  .print-btn{
+
+    background: $font;
+    color: white;
+    float: right;
+    border: none!important;
+
+    &:hover{
+
+      color: $green;
+
+    }
+
+  }
+
+}
+
+.progress {
+
+  margin: 10px;
+  width: 100%;
+  display: none;
+}
+
+#submit-message{
+
+  color: black;
+
+}

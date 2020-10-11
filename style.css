@@ -1,0 +1,1210 @@
+/* variables */
+/* Mixins */
+/* fonts */
+@font-face {
+  font-family: 'FFDINRoundWebPro';
+  font-weight: 400;
+  src: url(/webfonts/3196AF_0_unhinted_0.woff2) format("woff2"), url(/webfonts/3196AF_0_unhinted_0.woff) format("woff"), url(webfonts/3196AF_0_unhinted_0.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'FFDINRoundWebProMediumBold';
+  font-weight: 400;
+  src: url(/webfonts/3196AF_1_unhinted_0.woff2) format("woff2"), url(/webfonts/3196AF_1_unhinted_0.woff) format("woff"), url(/webfonts/3196AF_1_unhinted_0.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'FFDINRoundWebProMedium';
+  font-weight: 400;
+  src: url(/webfonts/3196AF_2_unhinted_0.woff2) format("woff2"), url(/webfonts/3196AF_2_unhinted_0.woff) format("woff"), url(webfonts/3196AF_2_unhinted_0.ttf) format("truetype");
+}
+
+@font-face { 
+  font-family: 'FFDINRoundWebProMediumLight';
+  font-weight: 400;
+  src: url(/webfonts/3196AF_3_unhinted_0.woff2) format("woff2"), url(/webfonts/3196AF_3_unhinted_0.woff) format("woff"), url(../webfonts/3196AF_3_unhinted_0.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'FFDINRoundWebProMediumBlack';
+  font-weight: 400;
+  src: url(/webfonts/3196AF_4_unhinted_0.woff2) format("woff2"), url(/webfonts/3196AF_4_unhinted_0.woff) format("woff"), url(/webfonts/3196AF_4_unhinted_0.ttf) format("truetype");
+}
+
+/* global */
+/* line 75, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/style.scss */
+body {
+  font-family: 'FFDINRoundWebProMedium';
+}
+
+/* line 81, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/style.scss */
+p {
+  font-size: 18px;
+  color: #3D3835;
+}
+
+/* line 88, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/style.scss */
+a {
+  color: #3D3835;
+}
+
+/* line 92, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/style.scss */
+a:hover {
+  color: #3D3835;
+  text-decoration: none;
+}
+
+/* imports */
+/* line 1, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+#internal-header {
+  border-bottom: 5px solid #c1cd23;
+  border-top: 5px solid #c1cd23;
+}
+
+@media (max-width: 575px) {
+  /* line 1, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+  #internal-header {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* line 13, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+#internal-header .top-bar {
+  padding-top: 15px;
+  padding-bottom: 33px;
+  border-bottom: 2px solid rgba(235, 231, 222, 0.5);
+}
+
+/* line 19, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+#internal-header .top-bar #phone-num {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 26, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+#internal-header .top-bar #phone-num:hover {
+  background: #c1cd23;
+}
+
+/* line 34, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+#internal-header .top-bar #int-link {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 41, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+#internal-header .top-bar #int-link:hover {
+  background: #c1cd23;
+}
+
+/* line 51, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+#internal-header .header-container {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* line 58, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+#internal-header img {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 65, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+#internal-header .nav-box {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  line-height: 1.3;
+}
+
+/* line 72, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+#internal-header .nav-box #first-nav {
+  padding-right: 20px;
+  border-left: 2px solid rgba(235, 231, 222, 0.5);
+  border-right: 2px solid rgba(235, 231, 222, 0.5);
+  padding-left: 10px;
+}
+
+/* line 79, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+#internal-header .nav-box #first-nav:hover {
+  background: #c1cd23;
+}
+
+/* line 88, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+#internal-header .nav-box #second-nav {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+/* line 93, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+#internal-header .nav-box #second-nav:hover {
+  background: #c1cd23;
+}
+
+/* line 101, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+#internal-header .nav-box p {
+  float: left;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  /* line 101, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_header.scss */
+  #internal-header .nav-box p {
+    font-size: 16px;
+  }
+}
+
+/* line 3, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+footer .footer-top {
+  background: #c1cd23;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 9, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+footer .footer-top .sign-up-button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  width: 350px;
+}
+
+/* line 18, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+footer .footer-top .sign-up-button:hover {
+  background: #3D3835;
+  color: #c1cd23;
+}
+
+@media (max-width: 991px) {
+  /* line 9, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+  footer .footer-top .sign-up-button {
+    width: 100%;
+  }
+}
+
+/* line 33, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+footer .footer-top #news {
+  font-size: 18px;
+  float: right;
+  margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  /* line 33, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+  footer .footer-top #news {
+    float: none;
+    text-align: center;
+  }
+}
+
+/* line 50, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+footer .footer-bottom {
+  background: #E6E1D4;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+@media (max-width: 991px) {
+  /* line 56, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+  footer .footer-bottom .col-md-3 {
+    text-align: center;
+  }
+}
+
+/* line 66, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+footer .footer-bottom ul {
+  padding: 0px;
+}
+
+/* line 70, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+footer .footer-bottom ul li {
+  list-style-type: none;
+  border-bottom: dotted thin #3D3835;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+/* line 81, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+footer .footer-bottom h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 991px) {
+  /* line 81, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+  footer .footer-bottom h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 95, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+footer .footer-bottom img {
+  float: right;
+}
+
+@media (max-width: 991px) {
+  /* line 95, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+  footer .footer-bottom img {
+    float: none;
+    margin-top: 25px;
+  }
+}
+
+/* line 108, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+footer .footer-bottom .fa-print {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* line 113, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+footer .footer-bottom .fa-print:hover {
+  color: #c1cd23;
+}
+
+/* line 121, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+footer .footer-bottom .circle-icon {
+  background: #E6E1D4;
+  border: thin solid #3D3835;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* line 134, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_footer.scss */
+footer .footer-bottom .circle-icon:hover {
+  border: thin solid #c1cd23;
+  color: #c1cd23;
+}
+
+/* line 1, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_landing-page.scss */
+.landing-top {
+  background: #f2f5d3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 991px) {
+  /* line 1, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_landing-page.scss */
+  .landing-top {
+    margin-bottom: 50px;
+  }
+}
+
+/* line 14, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_landing-page.scss */
+.landing-top h1 {
+  text-align: center;
+  color: #c1cd23;
+}
+
+/* line 21, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_landing-page.scss */
+.landing-top p {
+  text-align: center;
+  font-size: 18px;
+  color: #c1cd23;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+@media (max-width: 991px) {
+  /* line 21, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_landing-page.scss */
+  .landing-top p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+/* line 40, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_landing-page.scss */
+.card-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+  /* line 40, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_landing-page.scss */
+  .card-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+/* line 53, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_landing-page.scss */
+.card-container .card {
+  background-color: #f3f0ea;
+  border: none;
+  border-radius: 20px !important;
+  line-height: 1.4;
+  border-collapse: separate !important;
+}
+
+@media (max-width: 991px) {
+  /* line 53, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_landing-page.scss */
+  .card-container .card {
+    margin-bottom: 25px;
+  }
+}
+
+/* line 69, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_landing-page.scss */
+.card-container .card .card-img-top {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* line 76, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_landing-page.scss */
+.card-container .card .card-img-top:hover {
+  opacity: 0.7;
+}
+
+/* line 84, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_landing-page.scss */
+.card-container .card h2 {
+  color: #c1cd23;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* line 92, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_landing-page.scss */
+.card-container .card .card-footer {
+  background: #c1cd23;
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 101, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_landing-page.scss */
+.card-container .card .card-footer:hover {
+  background: #3D3835;
+  color: #c1cd23;
+}
+
+@media (max-width: 991px) {
+  /* line 3, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_select-boxes.scss */
+  .selected-row .col {
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 3, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_select-boxes.scss */
+  .selected-row .col {
+    flex-basis: auto !important;
+  }
+}
+
+/* line 17, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_select-boxes.scss */
+.selected-row .col .selected-box {
+  background: rgba(235, 231, 222, 0.5);
+  padding: 5px;
+  height: 80px;
+  border: thin solid #c1cd23;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* line 29, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_select-boxes.scss */
+.selected-row .col .selected-box:hover {
+  background: #c1cd23;
+}
+
+/* line 35, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_select-boxes.scss */
+.selected-row .col .selected-box .overlay {
+  background-color: rgba(193, 205, 35, 0.5);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* line 47, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_select-boxes.scss */
+.selected-row .col .selected-box p {
+  margin-top: 12px;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  /* line 47, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_select-boxes.scss */
+  .selected-row .col .selected-box p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 47, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_select-boxes.scss */
+  .selected-row .col .selected-box p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 47, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_select-boxes.scss */
+  .selected-row .col .selected-box p {
+    font-size: 17px;
+  }
+}
+
+/* line 73, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_select-boxes.scss */
+.selected-row .col .selected-box i {
+  padding-left: 8px;
+}
+
+/* line 1, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.header-right {
+  background: #f2f5d3;
+  padding: 30px;
+}
+
+/* line 6, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.header-right h1 {
+  margin-top: 25px;
+  color: #c1cd23;
+  margin-bottom: 20px;
+}
+
+/* line 17, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.header-left-house {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  /* line 17, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .header-left-house {
+    height: 300px;
+  }
+}
+
+/* line 29, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.header-left-garden {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  /* line 29, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .header-left-garden {
+    height: 300px;
+  }
+}
+
+/* line 41, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.header-left-about {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  /* line 41, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .header-left-about {
+    height: 300px;
+  }
+}
+
+/* line 53, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.header-left-health {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  /* line 53, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .header-left-health {
+    height: 300px;
+  }
+}
+
+/* line 65, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.header-left-out {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  /* line 65, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .header-left-out {
+    height: 300px;
+  }
+}
+
+/* line 77, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.header-left-professional {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  /* line 77, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .header-left-professional {
+    height: 300px;
+  }
+}
+
+/* line 89, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.service-wrapper {
+  background: #f7f5f0;
+  padding-bottom: 25px;
+}
+
+/* line 94, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.service-wrapper .container {
+  max-width: 950px;
+}
+
+/* line 100, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.service-wrapper .select-title {
+  text-align: center;
+  color: #c1cd23;
+  padding-top: 25px;
+}
+
+@media (max-width: 767px) {
+  /* line 100, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .service-wrapper .select-title {
+    padding-bottom: 25px;
+    font-size: 26px;
+  }
+}
+
+/* line 118, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.alert-container {
+  margin-bottom: 35px;
+}
+
+/* line 122, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.alert-container .alert {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  border-top: 1px solid #E6E1D4;
+  border-bottom: 1px solid #E6E1D4;
+  border-radius: 0px;
+}
+
+/* line 137, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.service-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  /* line 137, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .service-container {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+}
+
+/* line 153, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.service-container .service-selection .col-sm-6 .ind-service-wrapper {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #b7af99;
+}
+
+@media (max-width: 767px) {
+  /* line 153, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .service-container .service-selection .col-sm-6 .ind-service-wrapper {
+    padding: 25px;
+  }
+}
+
+/* line 166, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.service-container .service-selection .col-sm-6 .ind-service-wrapper .collapsed {
+  cursor: pointer;
+  color: #c1cd23;
+  display: inline-block;
+  float: right;
+}
+
+@media (max-width: 767px) {
+  /* line 166, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .service-container .service-selection .col-sm-6 .ind-service-wrapper .collapsed {
+    float: none;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 166, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .service-container .service-selection .col-sm-6 .ind-service-wrapper .collapsed {
+    float: right;
+  }
+}
+
+/* line 188, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.service-container .service-selection .col-sm-6 .ind-service-wrapper .show-service-details {
+  display: none;
+  padding-top: 20px;
+  width: calc(100%);
+}
+
+/* line 196, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.service-container .service-selection .col-sm-6 .ind-service-wrapper .form-check-label {
+  font-size: 18px;
+  padding-left: 8px;
+  max-width: 200px;
+}
+
+@media (max-width: 991px) {
+  /* line 196, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .service-container .service-selection .col-sm-6 .ind-service-wrapper .form-check-label {
+    max-width: 175px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 196, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .service-container .service-selection .col-sm-6 .ind-service-wrapper .form-check-label {
+    max-width: 100%;
+  }
+}
+
+/* line 223, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.other-services {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 228, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.other-services label {
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+/* line 237, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.btn {
+  background: #c1cd23;
+  border: #c1cd23;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  color: #3D3835;
+  font-size: 19px;
+  border: 2px solid #c1cd23 !important;
+}
+
+/* line 248, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.btn i {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  /* line 237, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .btn {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 237, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .btn {
+    font-size: 14px;
+  }
+}
+
+/* line 268, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.btn:hover {
+  background: #3D3835;
+  color: #c1cd23;
+  border: 2px solid #3D3835 !important;
+}
+
+/* line 276, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.btn:active {
+  background: #3D3835 !important;
+  color: #c1cd23 !important;
+}
+
+/* line 286, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.remove {
+  background: #f7f5f0;
+  color: black;
+  border: 2px solid #c1cd23;
+}
+
+@media (max-width: 991px) {
+  /* line 286, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .remove {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 286, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .remove {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 286, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .remove {
+    font-size: 13px;
+  }
+}
+
+/* line 312, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.remove:hover {
+  background: #3D3835 !important;
+  color: #c1cd23 !important;
+  border: 2px solid #3D3835 !important;
+}
+
+/* line 320, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.remove:active {
+  background: #f7f5f0 !important;
+  border: 2px solid #c1cd23 !important;
+}
+
+/* line 332, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.btn-primary:disabled {
+  background-color: #003f47 !important;
+  color: #c1cd23 !important;
+}
+
+/* line 341, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.finish {
+  background: #003f47;
+  color: white;
+  font-size: 19px;
+  border: none !important;
+}
+
+/* line 348, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.finish:disabled {
+  background-color: #003f47 !important;
+  color: #c1cd23 !important;
+}
+
+/* line 355, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.finish:hover {
+  background: #c1cd23;
+  color: #3D3835;
+  border: none !important;
+}
+
+/* line 365, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.hours-title {
+  text-align: center;
+  color: #c1cd23;
+  padding-top: 25px;
+}
+
+@media (max-width: 575px) {
+  /* line 365, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .hours-title {
+    font-size: 26px;
+  }
+}
+
+/* line 379, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.num-hours-label {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* line 386, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.radio-group {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  /* line 386, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .radio-group {
+    width: 100%;
+  }
+}
+
+/* line 398, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.radio {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #b7af99;
+  cursor: pointer;
+  margin: 2px 0;
+  margin-bottom: 5px;
+  text-align: center;
+  padding-top: 14px;
+  background-color: white;
+}
+
+/* line 413, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.radio.selected {
+  background-color: rgba(193, 205, 35, 0.5);
+}
+
+/* line 419, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.more-hours-input {
+  display: none;
+  width: 50%;
+  margin: 0 auto;
+  background: #f7f5f0;
+}
+
+@media (max-width: 767px) {
+  /* line 419, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+  .more-hours-input {
+    width: 100%;
+  }
+}
+
+/* line 432, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.more-hours-input p {
+  text-align: center;
+}
+
+/* line 438, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.more-hours-input input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #b7af99;
+  margin: 2px 0;
+  margin-bottom: 5px;
+  text-align: center;
+  padding-top: 5px;
+  background: white;
+}
+
+/* line 456, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+.view-more {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: #c1cd23;
+}
+
+/* line 465, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_service.scss */
+#disabled-message {
+  text-align: center;
+  color: #c1cd23;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* line 1, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.plan-title-wrapper {
+  height: 150px;
+  background: rgba(193, 205, 35, 0.5);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c1cd23;
+}
+
+/* line 14, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.selections-container {
+  margin-bottom: 40px;
+}
+
+/* line 18, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.selections-container .service-details-container {
+  background: rgba(235, 231, 222, 0.5);
+}
+
+/* line 24, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.selections-container .service-details-container .service-title a {
+  color: #c1cd23;
+}
+
+/* line 28, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.selections-container .service-details-container .service-title a:hover {
+  color: #ff671f;
+}
+
+/* line 38, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.selections-container .service-details-container .plan-title {
+  color: #c1cd23;
+  border-bottom: 3px solid #c1cd23;
+  padding-bottom: 15px;
+  padding-top: 40px;
+  font-size: 36px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 50, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.selections-container .service-details-container .service-cat-title {
+  color: #c1cd23;
+  font-size: 30px;
+  padding-top: 60px;
+  margin-left: -15px;
+}
+
+/* line 59, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.selections-container .service-details-container .service-cat-sub-heading {
+  text-transform: uppercase;
+  color: #c1cd23;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-size: 22px;
+  margin-left: -15px;
+}
+
+/* line 70, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.selections-container .service-details-container .service-row {
+  border-bottom: 3px solid #b7af99;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* line 76, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.selections-container .service-details-container .service-row h4 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-left: -15px;
+  text-transform: capitalize;
+}
+
+/* line 85, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.selections-container .service-details-container .service-row .hours-details {
+  font-weight: bold;
+  padding-top: 20px;
+  margin-left: -15px;
+}
+
+/* line 93, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.selections-container .service-details-container .service-row p {
+  margin-left: -15px;
+}
+
+/* line 106, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.pricing-wrapper {
+  background: rgba(235, 231, 222, 0.5);
+  padding: 20px;
+}
+
+@media (max-width: 767px) {
+  /* line 106, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+  .pricing-wrapper {
+    margin-top: 25px;
+  }
+}
+
+/* line 117, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.pricing-wrapper h3 {
+  color: #c1cd23;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 126, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.pricing-wrapper .service-price-container {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+/* line 133, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.pricing-wrapper .service-price-container ul {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0px;
+}
+
+/* line 139, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.pricing-wrapper .service-price-container ul li {
+  list-style: none;
+}
+
+/* line 143, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.pricing-wrapper .service-price-container ul li:last-child {
+  color: #c1cd23;
+  font-weight: bold;
+}
+
+/* line 158, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+#finish-interested {
+  text-align: center;
+  color: #c1cd23;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+/* line 168, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.next-step-container {
+  border-top: 3px solid #b7af99;
+  max-width: 950px;
+}
+
+/* line 173, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.next-step-container h2 {
+  text-align: center;
+  color: #c1cd23;
+  margin-bottom: 25px;
+  font-size: 36px;
+}
+
+/* line 183, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.next-step-container p {
+  text-align: center;
+}
+
+/* line 189, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.next-step-container form {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 194, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.next-step-container form input {
+  height: 50px;
+  border: 2px solid #b7af99;
+}
+
+/* line 201, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.next-step-container form textarea {
+  border: 2px solid #b7af99;
+}
+
+/* line 207, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.next-step-container form label {
+  margin-top: 20px;
+  padding-left: 5px;
+}
+
+/* line 214, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.next-step-container form .btn {
+  max-width: 300px;
+}
+
+@media (max-width: 991px) {
+  /* line 214, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+  .next-step-container form .btn {
+    max-width: 100%;
+  }
+}
+
+/* line 230, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.modal-header {
+  background: #c1cd23;
+  color: white;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+/* line 237, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.modal-header button {
+  color: white !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+}
+
+/* line 245, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.modal-header h4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 254, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.modal-content {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+/* line 261, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.modal-footer {
+  background: white;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+/* line 267, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.modal-footer .row {
+  width: 100%;
+  margin-right: 0px;
+}
+
+@media (max-width: 767px) {
+  /* line 267, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+  .modal-footer .row {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+}
+
+/* line 281, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.modal-footer .btn {
+  width: 90%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+  /* line 281, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+  .modal-footer .btn {
+    width: 100%;
+  }
+}
+
+/* line 295, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.modal-footer .print-btn {
+  background: #3D3835;
+  color: white;
+  float: right;
+  border: none !important;
+}
+
+/* line 302, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.modal-footer .print-btn:hover {
+  color: #c1cd23;
+}
+
+/* line 312, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+.progress {
+  margin: 10px;
+  width: 100%;
+  display: none;
+}
+
+/* line 319, /Volumes/Admin/Websites/Client-Sites/#_DEV-SITES/Help-at-Home-ACH-CURRENT/help-at-home/sass/_finish.scss */
+#submit-message {
+  color: black;
+}
+
+/*# sourceMappingURL=../style.map */

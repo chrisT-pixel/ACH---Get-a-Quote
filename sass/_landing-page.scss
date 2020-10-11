@@ -1,0 +1,112 @@
+.landing-top{
+
+  background: $very-light-green;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 25px;
+
+  @media(max-width: $md-break){
+
+    margin-bottom: 50px;
+
+  }
+
+  h1{
+
+    text-align: center;
+    color: $green;
+
+  }
+
+  p{
+
+    text-align: center;
+    font-size: 18px;
+    color: $green;
+    padding-left: 125px;
+    padding-right: 125px;
+
+    @media(max-width: $md-break){
+
+      padding-left: 25px;
+      padding-right: 25px;
+
+    }
+
+  }
+
+}
+
+.card-container{
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+  @media(max-width: $md-break){
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  }
+
+  .card{
+
+    background-color: #f3f0ea;
+    border: none;
+    border-radius: 20px!important;
+    line-height: 1.4;
+    border-collapse: separate!important;
+
+    @media(max-width: $md-break){
+
+      margin-bottom: 25px;
+
+
+
+    }
+
+    .card-img-top{
+
+    height: 300px;
+    @include centerBackgroundImage();
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    &:hover{
+
+      opacity: 0.7;
+
+    }
+
+    }
+
+    h2{
+
+      color: $green;
+      font-size: 24px;
+      font-weight: bold;
+
+    }
+
+    .card-footer{
+
+      background: $green;
+      border-top: none;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      color: white;
+      font-weight: bold;
+
+      &:hover{
+
+        background: $font;
+        color: $green;
+
+      }
+
+    }
+
+  }
+
+}

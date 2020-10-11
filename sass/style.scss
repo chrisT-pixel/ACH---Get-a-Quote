@@ -1,0 +1,108 @@
+/* variables */
+$green: #c1cd23;
+$grey: rgba(235, 231, 222, 0.5);
+$orange: #ff671f;
+$light-brown: rgb(183, 175, 153);
+$light-green: rgba(193,205,35, 0.5);
+$very-light-green: #f2f5d3;
+$service-body: #f7f5f0;
+$finish: #003f47;
+$brown: #E6E1D4;
+$font: #3D3835;
+
+$curved-radius: 10px;
+
+$xs-break: 575px;
+$sm-break: 767px;
+$md-break: 991px;
+
+
+  /* Mixins */
+
+@mixin flexBox{
+
+ display:-webkit-box; // old
+ display:-moz-box; // old
+ display:-ms-flexbox; // ie
+ display:-webkit-flex; // new
+ display:flex; // new
+
+}
+
+@mixin centerBackgroundImage{
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+/* fonts */
+
+@font-face {
+    font-family: 'FFDINRoundWebPro';
+    font-weight: 400;
+    src: url(/webfonts/3196AF_0_unhinted_0.woff2) format("woff2"), url(/webfonts/3196AF_0_unhinted_0.woff) format("woff"), url(webfonts/3196AF_0_unhinted_0.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'FFDINRoundWebProMediumBold';
+    font-weight: 400;
+    src: url(/webfonts/3196AF_1_unhinted_0.woff2) format("woff2"), url(/webfonts/3196AF_1_unhinted_0.woff) format("woff"), url(/webfonts/3196AF_1_unhinted_0.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'FFDINRoundWebProMedium';
+    font-weight: 400;
+    src: url(/webfonts/3196AF_2_unhinted_0.woff2) format("woff2"), url(/webfonts/3196AF_2_unhinted_0.woff) format("woff"), url(webfonts/3196AF_2_unhinted_0.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'FFDINRoundWebProMediumLight';
+    font-weight: 400;
+    src: url(/webfonts/3196AF_3_unhinted_0.woff2) format("woff2"), url(/webfonts/3196AF_3_unhinted_0.woff) format("woff"), url(../webfonts/3196AF_3_unhinted_0.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'FFDINRoundWebProMediumBlack';
+    font-weight: 400;
+    src: url(/webfonts/3196AF_4_unhinted_0.woff2) format("woff2"), url(/webfonts/3196AF_4_unhinted_0.woff) format("woff"), url(/webfonts/3196AF_4_unhinted_0.ttf) format("truetype");
+}
+
+
+/* global */
+
+body{
+
+  font-family: 'FFDINRoundWebProMedium';
+
+}
+
+p{
+
+  font-size: 18px;
+  color: $font;
+
+}
+
+a{
+
+    color: $font;
+
+    &:hover{
+
+      color: $font;
+      text-decoration: none;
+
+    }
+
+}
+
+/* imports */
+
+@import 'header';
+@import 'footer';
+@import 'landing-page';
+@import 'select-boxes';
+@import 'service';
+@import 'finish';
