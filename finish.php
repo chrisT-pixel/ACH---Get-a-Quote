@@ -28,8 +28,8 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 $lang = "en";
 
 // Register API keys at https://www.google.com/recaptcha/admin
- $siteKey = "6Le8gnQUAAAAAEqB_G0xi4TdTDPC6ZTdIe9eri8j";
- $secret = "6Le8gnQUAAAAABLDYNod9L9rTMiV8o5sYxMibOMP";
+ $siteKey = "test";
+ $secret = "test";
 
 // Only send form if there is an email address set
 if(isset($_POST['email'])) {
@@ -110,7 +110,7 @@ if(isset($_POST['email'])) {
            $mail->Host = 'smtp-mail.outlook.com';
            $mail->SMTPAuth = true;                               // Enable SMTP authentication
            $mail->Username = 'quote@ach.org.au';
-           $mail->Password = 'Nr69BbQt58';
+           $mail->Password = 'test';
            //$mail->SMTPSecure = 'ssl';
            $mail->SMTPSecure = 'tls';
            $mail->Port = 587;
@@ -319,7 +319,7 @@ if(isset($_POST['email'])) {
        $mail2->Host = 'smtp-mail.outlook.com';
        $mail2->SMTPAuth = true;                               // Enable SMTP authentication
        $mail2->Username = 'quote@ach.org.au';                        // SMTP password
-       $mail2->Password = 'Nr69BbQt58';
+       $mail2->Password = 'test';
        $mail2->SMTPSecure = 'tls';
        //$mail2->SMTPSecure = 'ssl';
        $mail2->Port = 587;
